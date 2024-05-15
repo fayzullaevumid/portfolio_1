@@ -1,0 +1,75 @@
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 30rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    background-color: transparent;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+    margin: 1rem;
+    white-space: nowrap;
+}
+.button:hover{
+    width: 18rem;
+    height: 3rem;
+    background-color: rgb(210, 210, 210);
+    color: rgb(40, 40, 195);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.logout{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    transition: 0.3s ease   ;
+}
+.logout:hover{
+    width: 18rem;
+    height: 3rem;
+    background-color: rgb(210, 210, 210);
+    color: rgb(199, 7, 7);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.p1{
+    font-size: 1.7rem;
+    position: absolute;
+    top: 0.8rem;
+    right: 47rem;
+}
+.card-2{
+    position: absolute;
+    top: 6rem;
+    right: 7rem;
+    width: 55rem;
+    height: 20rem;
+    border-radius: 5px;
+    border: 0.7px solid black;
+}
+.card-3{
+    margin-left: 3rem;
+}
+.card-4{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.3px solid rgb(108, 108, 108);
+}
+.photo{
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem;
+}
+.card-5{
+    display: flex;
+}
+.p2{
+    margin-top: 3rem;
+}

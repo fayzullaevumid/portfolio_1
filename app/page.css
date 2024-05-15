@@ -1,0 +1,31 @@
+button{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 7px;
+    margin-top: 0.3rem;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-size: 1.3rem;
+    background-color:  transparent;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    background-color: white;
+    color: black;
+}
+.list:hover{
+    background-color: white;
+    cursor: pointer;
+}

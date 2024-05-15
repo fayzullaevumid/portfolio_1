@@ -1,0 +1,91 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 32rem;
+    width: 26rem;
+    height: 28rem;
+    box-shadow: 0 4px 8px black ;
+}
+.h1{
+    position: absolute;
+    top: 4rem;
+    left: 35rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.name-label{
+    position: absolute;
+    top: 8rem;
+    left: 35rem;
+    cursor: pointer;
+}
+#name{
+    position: absolute;
+    top: 9.7rem;
+    width: 22rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(241, 237, 237);
+}
+#name:hover{
+    background-color:  rgb(220, 220, 220);
+    border: 0.7px solid gray;
+    cursor: pointer;
+}
+.login-label{
+    position: absolute;
+    top: 13rem;
+    left: 35rem;
+}
+#login{
+    position: absolute;
+    top: 14.7rem;
+    width: 22rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(241, 237, 237);
+}
+#login:hover{
+    background-color:  rgb(220, 220, 220);
+    border: 0.7px solid gray;
+    cursor: pointer;
+}
+.password-label{
+    position: absolute;
+    top: 18rem;
+    left: 35rem;
+}
+#password{
+    position: absolute;
+    top: 19.7rem;
+    width: 22rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(241, 237, 237);
+}
+#password:hover{
+    background-color:  rgb(220, 220, 220);
+    border: 0.7px solid gray;
+    cursor: pointer;
+}
+.button-login{
+    position: absolute;
+    top: 24rem;
+    width: 22rem;
+    height: 2rem;
+    border: none;
+    color: white;
+    background-color: #044BD9;
+    transition: background-color 0.3s ease;
+}
+.button-login:hover{
+    border: 0.7px solid #053087;
+    background-color: #053390;
+}
+.login-text{
+    position: absolute;
+    top: 26.5rem;
+}

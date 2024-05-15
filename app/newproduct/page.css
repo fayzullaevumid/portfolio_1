@@ -1,0 +1,83 @@
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 30rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    background-color: transparent;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+    margin: 1rem;
+    white-space: nowrap;
+}
+.button:hover{
+    width: 18rem;
+    height: 3rem;
+    background-color: rgb(210, 210, 210);
+    color: rgb(40, 40, 195);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.logout{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    transition: 0.3s ease   ;
+}
+.logout:hover{
+    width: 18rem;
+    height: 3rem;
+    background-color: rgb(210, 210, 210);
+    color: rgb(199, 7, 7);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.card-2{
+    position: absolute;
+    top: 1rem;
+    left: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 0.5rem;
+}
+input{
+    width: 30rem;
+    height: 2.2rem;
+    border-radius: 6px;
+    border: 0.7px solid rgb(173, 173, 173);
+    background-color: rgb(242, 242, 242);
+    font-size: 0.9rem;
+}
+input:hover{
+    border: 1px solid rgb(69, 69, 69);
+}
+#select{
+    width: 30.5rem;
+    height: 2.2rem;
+    border-radius: 6px;
+    border: 0.7px solid rgb(173, 173, 173);
+    background-color: rgb(242, 242, 242);
+    font-size: 0.9rem;
+}
+#button-2{
+    width: 30.5rem;
+    height: 2rem;
+    border: none;
+    margin-top: 0.7rem;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(51, 51, 195);
+}
+#button-2:hover{
+    background-color: rgb(5, 5, 201);
+}   
